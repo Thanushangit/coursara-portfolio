@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 28);
+    color: #fff;
+
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons p {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons p:hover {
+    transform: scale(1.2);
+}
+
+.icons a {
+    color: #fff;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-content h4 {
+    font-size: 20px;
+}
+
+.hero {
+    min-height: 90vh;
+    background-color: rgb(42, 67, 101);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.hero-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.hero-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-text {
+    font-size: 30px;
+}
+
+main {
+    background-color: green;
+}
+
+main h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.project-container {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project {
+    width: 40%;
+    background-color: rgb(233, 228, 228);
+    border-radius: 10px;
+}
+
+.project .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+
+
+}
+
+.project .image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.project-content {
+    padding: 10px;
+}
+
+.project-content h4 {
+    margin: 8px 0;
+}
+
+.project-content p {
+    color: rgb(104, 99, 99);
+}
+
+.project-content h5 {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+
+.contact {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    flex-direction: column;
+    color: #fff;
+}
+
+.contact h1 {
+    margin: 14px 0;
+    font-size: 30px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 5px 10px;
+}
